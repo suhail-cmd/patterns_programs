@@ -6,6 +6,22 @@ if num != 0 and num % 9 == 0:
 else:
     print("No")
 
+
+####py
+
+num = int(input())
+while num >= 10:
+    Sum = 0
+    while num > 0:
+        Sum += num % 10
+        num //= 10
+    num = Sum
+if num == 9:
+    print("Yes")
+else:
+    print("No")
+        
+
 #java
 
 import java.io.*;
