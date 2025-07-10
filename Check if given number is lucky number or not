@@ -1,0 +1,28 @@
+#python
+
+num = int(input())
+if num != 0 and num % 9 == 0:
+    print("Yes")
+else:
+    print("No")
+
+#java
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        if(num != 0 && num % 9 == 0){
+            System.out.print("Yes");
+            
+        }
+        else{
+            System.out.print("No");
+        }
+    }
+}
